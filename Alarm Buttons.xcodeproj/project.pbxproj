@@ -1,0 +1,784 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		244B312F1ED89176004EAA10 /* ViewLoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244B312E1ED89176004EAA10 /* ViewLoginController.swift */; };
+		24BA4BFF1ED3394C00C8F91B /* AlarmaspeakerWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 24BA4BFE1ED3394C00C8F91B /* AlarmaspeakerWhite.png */; };
+		24BA4C011ED3396400C8F91B /* configurarWhite2.png in Resources */ = {isa = PBXBuildFile; fileRef = 24BA4C001ED3396400C8F91B /* configurarWhite2.png */; };
+		24BA4C031ED3398600C8F91B /* ladronWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 24BA4C021ED3398600C8F91B /* ladronWhite.png */; };
+		24BA4C051ED3399900C8F91B /* microphoneWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 24BA4C041ED3399900C8F91B /* microphoneWhite.png */; };
+		24BA4C071ED339AA00C8F91B /* AlarmaEditar.png in Resources */ = {isa = PBXBuildFile; fileRef = 24BA4C061ED339AA00C8F91B /* AlarmaEditar.png */; };
+		24BA4C091ED339BA00C8F91B /* ojoWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 24BA4C081ED339BA00C8F91B /* ojoWhite.png */; };
+		24BA4C0B1ED339C900C8F91B /* ProtestaWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 24BA4C0A1ED339C900C8F91B /* ProtestaWhite.png */; };
+		24BA4C0D1ED339E200C8F91B /* mensajeWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 24BA4C0C1ED339E200C8F91B /* mensajeWhite.png */; };
+		24BA4C0F1ED33A4C00C8F91B /* notificacionesCorreoWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 24BA4C0E1ED33A4C00C8F91B /* notificacionesCorreoWhite.png */; };
+		24BA4C111ED33A5800C8F91B /* notificacionesCorreo2White.png in Resources */ = {isa = PBXBuildFile; fileRef = 24BA4C101ED33A5800C8F91B /* notificacionesCorreo2White.png */; };
+		24BA4C131ED33A6400C8F91B /* notificacionesUserWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 24BA4C121ED33A6400C8F91B /* notificacionesUserWhite.png */; };
+		24BA4C151ED33A6F00C8F91B /* notificacionesWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 24BA4C141ED33A6F00C8F91B /* notificacionesWhite.png */; };
+		24BA4C171ED33A8100C8F91B /* SOSAlarms.png in Resources */ = {isa = PBXBuildFile; fileRef = 24BA4C161ED33A8100C8F91B /* SOSAlarms.png */; };
+		24BA4C191ED33BC000C8F91B /* bombWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 24BA4C181ED33BC000C8F91B /* bombWhite.png */; };
+		24BA4C1B1ED33BD900C8F91B /* CallingWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 24BA4C1A1ED33BD900C8F91B /* CallingWhite.png */; };
+		24BA4C1D1ED33BE200C8F91B /* Camera_shotWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 24BA4C1C1ED33BE200C8F91B /* Camera_shotWhite.png */; };
+		24BA4C1F1ED33C0100C8F91B /* recordingSpeechWhiteGood.png in Resources */ = {isa = PBXBuildFile; fileRef = 24BA4C1E1ED33C0100C8F91B /* recordingSpeechWhiteGood.png */; };
+		24BA4C211ED33D5500C8F91B /* ViewBombMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BA4C201ED33D5500C8F91B /* ViewBombMenu.swift */; };
+		24BA4C231ED3409300C8F91B /* VideoRecordingWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 24BA4C221ED3409300C8F91B /* VideoRecordingWhite.png */; };
+		24BA4C251ED3451D00C8F91B /* ViewContPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BA4C241ED3451D00C8F91B /* ViewContPhoto.swift */; };
+		24BA4C271ED3453200C8F91B /* ViewContrVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BA4C261ED3453200C8F91B /* ViewContrVideo.swift */; };
+		24BA4C291ED3455B00C8F91B /* ViewContrPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BA4C281ED3455B00C8F91B /* ViewContrPhone.swift */; };
+		24BA4C2B1ED3457600C8F91B /* ViewContrMicrophone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BA4C2A1ED3457600C8F91B /* ViewContrMicrophone.swift */; };
+		24BA4C2D1ED3458C00C8F91B /* ViewContrMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BA4C2C1ED3458C00C8F91B /* ViewContrMessage.swift */; };
+		24BA4C2F1ED345B800C8F91B /* ViewContrOthers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BA4C2E1ED345B800C8F91B /* ViewContrOthers.swift */; };
+		24BA4C311ED346B300C8F91B /* ViewPanicPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BA4C301ED346B300C8F91B /* ViewPanicPhoto.swift */; };
+		24BA4C331ED346C500C8F91B /* ViewPanicVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BA4C321ED346C500C8F91B /* ViewPanicVideo.swift */; };
+		24BA4C351ED346D800C8F91B /* ViewPanicPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BA4C341ED346D800C8F91B /* ViewPanicPhone.swift */; };
+		24BA4C371ED346EF00C8F91B /* ViewPanicMicrophone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BA4C361ED346EF00C8F91B /* ViewPanicMicrophone.swift */; };
+		24C4BF201ED878CD00A3E9DC /* notificacionesCalling2White.png in Resources */ = {isa = PBXBuildFile; fileRef = 24C4BF1F1ED878CD00A3E9DC /* notificacionesCalling2White.png */; };
+		24C4BF221ED884D300A3E9DC /* NextWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 24C4BF211ED884D300A3E9DC /* NextWhite.png */; };
+		24C4BF241ED884E000A3E9DC /* userCheckWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 24C4BF231ED884E000A3E9DC /* userCheckWhite.png */; };
+		24C4BF261ED88A2F00A3E9DC /* UserLoginWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 24C4BF251ED88A2F00A3E9DC /* UserLoginWhite.png */; };
+		24C4BF281ED88AA600A3E9DC /* UserLoginWhite2.png in Resources */ = {isa = PBXBuildFile; fileRef = 24C4BF271ED88AA600A3E9DC /* UserLoginWhite2.png */; };
+		24FC0F551ED31EA5009BFE55 /* ViewPanicBottonAuto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FC0F541ED31EA5009BFE55 /* ViewPanicBottonAuto.swift */; };
+		24FC0FDB1ED33275009BFE55 /* ViewMenuPrincipal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FC0FDA1ED33275009BFE55 /* ViewMenuPrincipal.swift */; };
+		24FC0FDD1ED33306009BFE55 /* ViewFireMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FC0FDC1ED33306009BFE55 /* ViewFireMenu.swift */; };
+		24FC0FDF1ED3334F009BFE55 /* ViewPolicialMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FC0FDE1ED3334E009BFE55 /* ViewPolicialMenu.swift */; };
+		24FC0FE11ED3337C009BFE55 /* ViewOtherMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FC0FE01ED3337C009BFE55 /* ViewOtherMenu.swift */; };
+		24FC0FE31ED333AE009BFE55 /* ViewMedicalMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FC0FE21ED333AE009BFE55 /* ViewMedicalMenu.swift */; };
+		24FC0FE51ED333E8009BFE55 /* ViewAccidentMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FC0FE41ED333E8009BFE55 /* ViewAccidentMenu.swift */; };
+		57215AFD1EB643F800FC79CC /* N__0008_Background_port.png in Resources */ = {isa = PBXBuildFile; fileRef = 57215AFC1EB643F800FC79CC /* N__0008_Background_port.png */; };
+		57215B131EB6463200FC79CC /* cameraWhite-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 57215AFE1EB6463200FC79CC /* cameraWhite-3.png */; };
+		57215B141EB6463200FC79CC /* cameraWhite3.png in Resources */ = {isa = PBXBuildFile; fileRef = 57215AFF1EB6463200FC79CC /* cameraWhite3.png */; };
+		57215B151EB6463200FC79CC /* ComentarioWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 57215B001EB6463200FC79CC /* ComentarioWhite.png */; };
+		57215B161EB6463200FC79CC /* ComentarioWhite2.png in Resources */ = {isa = PBXBuildFile; fileRef = 57215B011EB6463200FC79CC /* ComentarioWhite2.png */; };
+		57215B171EB6463200FC79CC /* emergencia8.png in Resources */ = {isa = PBXBuildFile; fileRef = 57215B021EB6463200FC79CC /* emergencia8.png */; };
+		57215B181EB6463200FC79CC /* emergenciaWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 57215B031EB6463200FC79CC /* emergenciaWhite.png */; };
+		57215B191EB6463200FC79CC /* fondonaranja.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57215B041EB6463200FC79CC /* fondonaranja.jpg */; };
+		57215B1A1EB6463200FC79CC /* fondonaranja2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57215B051EB6463200FC79CC /* fondonaranja2.jpg */; };
+		57215B1B1EB6463200FC79CC /* fondonaranja4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57215B061EB6463200FC79CC /* fondonaranja4.jpg */; };
+		57215B1C1EB6463200FC79CC /* fuegoWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 57215B071EB6463200FC79CC /* fuegoWhite.png */; };
+		57215B1D1EB6463200FC79CC /* HospitalWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 57215B081EB6463200FC79CC /* HospitalWhite.png */; };
+		57215B1E1EB6463200FC79CC /* HospitalWhite2.png in Resources */ = {isa = PBXBuildFile; fileRef = 57215B091EB6463200FC79CC /* HospitalWhite2.png */; };
+		57215B1F1EB6463200FC79CC /* llamadaWhite-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 57215B0A1EB6463200FC79CC /* llamadaWhite-4.png */; };
+		57215B201EB6463200FC79CC /* llamadaWhite4.png in Resources */ = {isa = PBXBuildFile; fileRef = 57215B0B1EB6463200FC79CC /* llamadaWhite4.png */; };
+		57215B211EB6463200FC79CC /* photoWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 57215B0C1EB6463200FC79CC /* photoWhite.png */; };
+		57215B221EB6463200FC79CC /* photoWhite4.png in Resources */ = {isa = PBXBuildFile; fileRef = 57215B0D1EB6463200FC79CC /* photoWhite4.png */; };
+		57215B231EB6463200FC79CC /* policialWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 57215B0E1EB6463200FC79CC /* policialWhite.png */; };
+		57215B241EB6463200FC79CC /* policialWhite3.png in Resources */ = {isa = PBXBuildFile; fileRef = 57215B0F1EB6463200FC79CC /* policialWhite3.png */; };
+		57215B251EB6463200FC79CC /* policialWhite4.png in Resources */ = {isa = PBXBuildFile; fileRef = 57215B101EB6463200FC79CC /* policialWhite4.png */; };
+		57215B261EB6463200FC79CC /* SaveWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 57215B111EB6463200FC79CC /* SaveWhite.png */; };
+		57215B271EB6463200FC79CC /* TargetWhite-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 57215B121EB6463200FC79CC /* TargetWhite-4.png */; };
+		57AF73031EB555DE00F1E0B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AF73021EB555DE00F1E0B7 /* AppDelegate.swift */; };
+		57AF73051EB555DE00F1E0B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AF73041EB555DE00F1E0B7 /* ViewController.swift */; };
+		57AF73081EB555DE00F1E0B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57AF73061EB555DE00F1E0B7 /* Main.storyboard */; };
+		57AF730A1EB555DE00F1E0B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57AF73091EB555DE00F1E0B7 /* Assets.xcassets */; };
+		57AF730D1EB555DE00F1E0B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57AF730B1EB555DE00F1E0B7 /* LaunchScreen.storyboard */; };
+		57AF73181EB555DF00F1E0B7 /* Alarm_ButtonsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AF73171EB555DF00F1E0B7 /* Alarm_ButtonsTests.swift */; };
+		57AF73231EB555DF00F1E0B7 /* Alarm_ButtonsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AF73221EB555DF00F1E0B7 /* Alarm_ButtonsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57AF73141EB555DF00F1E0B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57AF72F71EB555DE00F1E0B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57AF72FE1EB555DE00F1E0B7;
+			remoteInfo = "Alarm Buttons";
+		};
+		57AF731F1EB555DF00F1E0B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57AF72F71EB555DE00F1E0B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57AF72FE1EB555DE00F1E0B7;
+			remoteInfo = "Alarm Buttons";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		244B312E1ED89176004EAA10 /* ViewLoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewLoginController.swift; sourceTree = "<group>"; };
+		24BA4BFE1ED3394C00C8F91B /* AlarmaspeakerWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AlarmaspeakerWhite.png; sourceTree = "<group>"; };
+		24BA4C001ED3396400C8F91B /* configurarWhite2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = configurarWhite2.png; sourceTree = "<group>"; };
+		24BA4C021ED3398600C8F91B /* ladronWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ladronWhite.png; sourceTree = "<group>"; };
+		24BA4C041ED3399900C8F91B /* microphoneWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = microphoneWhite.png; sourceTree = "<group>"; };
+		24BA4C061ED339AA00C8F91B /* AlarmaEditar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AlarmaEditar.png; sourceTree = "<group>"; };
+		24BA4C081ED339BA00C8F91B /* ojoWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ojoWhite.png; sourceTree = "<group>"; };
+		24BA4C0A1ED339C900C8F91B /* ProtestaWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ProtestaWhite.png; sourceTree = "<group>"; };
+		24BA4C0C1ED339E200C8F91B /* mensajeWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mensajeWhite.png; sourceTree = "<group>"; };
+		24BA4C0E1ED33A4C00C8F91B /* notificacionesCorreoWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notificacionesCorreoWhite.png; sourceTree = "<group>"; };
+		24BA4C101ED33A5800C8F91B /* notificacionesCorreo2White.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notificacionesCorreo2White.png; sourceTree = "<group>"; };
+		24BA4C121ED33A6400C8F91B /* notificacionesUserWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notificacionesUserWhite.png; sourceTree = "<group>"; };
+		24BA4C141ED33A6F00C8F91B /* notificacionesWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notificacionesWhite.png; sourceTree = "<group>"; };
+		24BA4C161ED33A8100C8F91B /* SOSAlarms.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SOSAlarms.png; sourceTree = "<group>"; };
+		24BA4C181ED33BC000C8F91B /* bombWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bombWhite.png; sourceTree = "<group>"; };
+		24BA4C1A1ED33BD900C8F91B /* CallingWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CallingWhite.png; sourceTree = "<group>"; };
+		24BA4C1C1ED33BE200C8F91B /* Camera_shotWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Camera_shotWhite.png; sourceTree = "<group>"; };
+		24BA4C1E1ED33C0100C8F91B /* recordingSpeechWhiteGood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recordingSpeechWhiteGood.png; sourceTree = "<group>"; };
+		24BA4C201ED33D5500C8F91B /* ViewBombMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewBombMenu.swift; sourceTree = "<group>"; };
+		24BA4C221ED3409300C8F91B /* VideoRecordingWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VideoRecordingWhite.png; sourceTree = "<group>"; };
+		24BA4C241ED3451D00C8F91B /* ViewContPhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewContPhoto.swift; sourceTree = "<group>"; };
+		24BA4C261ED3453200C8F91B /* ViewContrVideo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewContrVideo.swift; sourceTree = "<group>"; };
+		24BA4C281ED3455B00C8F91B /* ViewContrPhone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewContrPhone.swift; sourceTree = "<group>"; };
+		24BA4C2A1ED3457600C8F91B /* ViewContrMicrophone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewContrMicrophone.swift; sourceTree = "<group>"; };
+		24BA4C2C1ED3458C00C8F91B /* ViewContrMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewContrMessage.swift; sourceTree = "<group>"; };
+		24BA4C2E1ED345B800C8F91B /* ViewContrOthers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewContrOthers.swift; sourceTree = "<group>"; };
+		24BA4C301ED346B300C8F91B /* ViewPanicPhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewPanicPhoto.swift; sourceTree = "<group>"; };
+		24BA4C321ED346C500C8F91B /* ViewPanicVideo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewPanicVideo.swift; sourceTree = "<group>"; };
+		24BA4C341ED346D800C8F91B /* ViewPanicPhone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewPanicPhone.swift; sourceTree = "<group>"; };
+		24BA4C361ED346EF00C8F91B /* ViewPanicMicrophone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewPanicMicrophone.swift; sourceTree = "<group>"; };
+		24C4BF1F1ED878CD00A3E9DC /* notificacionesCalling2White.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notificacionesCalling2White.png; sourceTree = "<group>"; };
+		24C4BF211ED884D300A3E9DC /* NextWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NextWhite.png; sourceTree = "<group>"; };
+		24C4BF231ED884E000A3E9DC /* userCheckWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = userCheckWhite.png; sourceTree = "<group>"; };
+		24C4BF251ED88A2F00A3E9DC /* UserLoginWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UserLoginWhite.png; sourceTree = "<group>"; };
+		24C4BF271ED88AA600A3E9DC /* UserLoginWhite2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UserLoginWhite2.png; sourceTree = "<group>"; };
+		24FC0F541ED31EA5009BFE55 /* ViewPanicBottonAuto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewPanicBottonAuto.swift; sourceTree = "<group>"; };
+		24FC0FDA1ED33275009BFE55 /* ViewMenuPrincipal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewMenuPrincipal.swift; sourceTree = "<group>"; };
+		24FC0FDC1ED33306009BFE55 /* ViewFireMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewFireMenu.swift; sourceTree = "<group>"; };
+		24FC0FDE1ED3334E009BFE55 /* ViewPolicialMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewPolicialMenu.swift; sourceTree = "<group>"; };
+		24FC0FE01ED3337C009BFE55 /* ViewOtherMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewOtherMenu.swift; sourceTree = "<group>"; };
+		24FC0FE21ED333AE009BFE55 /* ViewMedicalMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewMedicalMenu.swift; sourceTree = "<group>"; };
+		24FC0FE41ED333E8009BFE55 /* ViewAccidentMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewAccidentMenu.swift; sourceTree = "<group>"; };
+		57215AFC1EB643F800FC79CC /* N__0008_Background_port.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = N__0008_Background_port.png; sourceTree = "<group>"; };
+		57215AFE1EB6463200FC79CC /* cameraWhite-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cameraWhite-3.png"; sourceTree = "<group>"; };
+		57215AFF1EB6463200FC79CC /* cameraWhite3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cameraWhite3.png; sourceTree = "<group>"; };
+		57215B001EB6463200FC79CC /* ComentarioWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ComentarioWhite.png; sourceTree = "<group>"; };
+		57215B011EB6463200FC79CC /* ComentarioWhite2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ComentarioWhite2.png; sourceTree = "<group>"; };
+		57215B021EB6463200FC79CC /* emergencia8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emergencia8.png; sourceTree = "<group>"; };
+		57215B031EB6463200FC79CC /* emergenciaWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emergenciaWhite.png; sourceTree = "<group>"; };
+		57215B041EB6463200FC79CC /* fondonaranja.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fondonaranja.jpg; sourceTree = "<group>"; };
+		57215B051EB6463200FC79CC /* fondonaranja2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fondonaranja2.jpg; sourceTree = "<group>"; };
+		57215B061EB6463200FC79CC /* fondonaranja4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fondonaranja4.jpg; sourceTree = "<group>"; };
+		57215B071EB6463200FC79CC /* fuegoWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fuegoWhite.png; sourceTree = "<group>"; };
+		57215B081EB6463200FC79CC /* HospitalWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HospitalWhite.png; sourceTree = "<group>"; };
+		57215B091EB6463200FC79CC /* HospitalWhite2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HospitalWhite2.png; sourceTree = "<group>"; };
+		57215B0A1EB6463200FC79CC /* llamadaWhite-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "llamadaWhite-4.png"; sourceTree = "<group>"; };
+		57215B0B1EB6463200FC79CC /* llamadaWhite4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = llamadaWhite4.png; sourceTree = "<group>"; };
+		57215B0C1EB6463200FC79CC /* photoWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photoWhite.png; sourceTree = "<group>"; };
+		57215B0D1EB6463200FC79CC /* photoWhite4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photoWhite4.png; sourceTree = "<group>"; };
+		57215B0E1EB6463200FC79CC /* policialWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = policialWhite.png; sourceTree = "<group>"; };
+		57215B0F1EB6463200FC79CC /* policialWhite3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = policialWhite3.png; sourceTree = "<group>"; };
+		57215B101EB6463200FC79CC /* policialWhite4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = policialWhite4.png; sourceTree = "<group>"; };
+		57215B111EB6463200FC79CC /* SaveWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SaveWhite.png; sourceTree = "<group>"; };
+		57215B121EB6463200FC79CC /* TargetWhite-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TargetWhite-4.png"; sourceTree = "<group>"; };
+		57AF72FF1EB555DE00F1E0B7 /* Alarm Buttons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alarm Buttons.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57AF73021EB555DE00F1E0B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		57AF73041EB555DE00F1E0B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		57AF73071EB555DE00F1E0B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57AF73091EB555DE00F1E0B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57AF730C1EB555DE00F1E0B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		57AF730E1EB555DE00F1E0B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57AF73131EB555DF00F1E0B7 /* Alarm ButtonsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alarm ButtonsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57AF73171EB555DF00F1E0B7 /* Alarm_ButtonsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alarm_ButtonsTests.swift; sourceTree = "<group>"; };
+		57AF73191EB555DF00F1E0B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57AF731E1EB555DF00F1E0B7 /* Alarm ButtonsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alarm ButtonsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57AF73221EB555DF00F1E0B7 /* Alarm_ButtonsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alarm_ButtonsUITests.swift; sourceTree = "<group>"; };
+		57AF73241EB555DF00F1E0B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57AF72FC1EB555DE00F1E0B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57AF73101EB555DF00F1E0B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57AF731B1EB555DF00F1E0B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24FC0FD91ED32EA2009BFE55 /* Img */ = {
+			isa = PBXGroup;
+			children = (
+				24C4BF251ED88A2F00A3E9DC /* UserLoginWhite.png */,
+				24C4BF231ED884E000A3E9DC /* userCheckWhite.png */,
+				24C4BF211ED884D300A3E9DC /* NextWhite.png */,
+				24C4BF1F1ED878CD00A3E9DC /* notificacionesCalling2White.png */,
+				57215AFC1EB643F800FC79CC /* N__0008_Background_port.png */,
+				57215AFE1EB6463200FC79CC /* cameraWhite-3.png */,
+				24BA4BFE1ED3394C00C8F91B /* AlarmaspeakerWhite.png */,
+				24BA4C001ED3396400C8F91B /* configurarWhite2.png */,
+				24BA4C021ED3398600C8F91B /* ladronWhite.png */,
+				24BA4C041ED3399900C8F91B /* microphoneWhite.png */,
+				24BA4C061ED339AA00C8F91B /* AlarmaEditar.png */,
+				24BA4C081ED339BA00C8F91B /* ojoWhite.png */,
+				24C4BF271ED88AA600A3E9DC /* UserLoginWhite2.png */,
+				24BA4C0A1ED339C900C8F91B /* ProtestaWhite.png */,
+				57215AFF1EB6463200FC79CC /* cameraWhite3.png */,
+				24BA4C181ED33BC000C8F91B /* bombWhite.png */,
+				24BA4C0C1ED339E200C8F91B /* mensajeWhite.png */,
+				24BA4C1A1ED33BD900C8F91B /* CallingWhite.png */,
+				24BA4C1C1ED33BE200C8F91B /* Camera_shotWhite.png */,
+				57215B001EB6463200FC79CC /* ComentarioWhite.png */,
+				24BA4C0E1ED33A4C00C8F91B /* notificacionesCorreoWhite.png */,
+				24BA4C1E1ED33C0100C8F91B /* recordingSpeechWhiteGood.png */,
+				24BA4C101ED33A5800C8F91B /* notificacionesCorreo2White.png */,
+				24BA4C121ED33A6400C8F91B /* notificacionesUserWhite.png */,
+				24BA4C141ED33A6F00C8F91B /* notificacionesWhite.png */,
+				57215B011EB6463200FC79CC /* ComentarioWhite2.png */,
+				24BA4C161ED33A8100C8F91B /* SOSAlarms.png */,
+				57215B021EB6463200FC79CC /* emergencia8.png */,
+				57215B031EB6463200FC79CC /* emergenciaWhite.png */,
+				57215B041EB6463200FC79CC /* fondonaranja.jpg */,
+				24BA4C221ED3409300C8F91B /* VideoRecordingWhite.png */,
+				57215B051EB6463200FC79CC /* fondonaranja2.jpg */,
+				57215B061EB6463200FC79CC /* fondonaranja4.jpg */,
+				57215B071EB6463200FC79CC /* fuegoWhite.png */,
+				57215B081EB6463200FC79CC /* HospitalWhite.png */,
+				57215B091EB6463200FC79CC /* HospitalWhite2.png */,
+				57215B0A1EB6463200FC79CC /* llamadaWhite-4.png */,
+				57215B0B1EB6463200FC79CC /* llamadaWhite4.png */,
+				57215B0C1EB6463200FC79CC /* photoWhite.png */,
+				57215B0D1EB6463200FC79CC /* photoWhite4.png */,
+				57215B0E1EB6463200FC79CC /* policialWhite.png */,
+				57215B0F1EB6463200FC79CC /* policialWhite3.png */,
+				57215B101EB6463200FC79CC /* policialWhite4.png */,
+				57215B111EB6463200FC79CC /* SaveWhite.png */,
+				57215B121EB6463200FC79CC /* TargetWhite-4.png */,
+			);
+			name = Img;
+			sourceTree = "<group>";
+		};
+		57AF72F61EB555DE00F1E0B7 = {
+			isa = PBXGroup;
+			children = (
+				57AF73011EB555DE00F1E0B7 /* Alarm Buttons */,
+				57AF73161EB555DF00F1E0B7 /* Alarm ButtonsTests */,
+				57AF73211EB555DF00F1E0B7 /* Alarm ButtonsUITests */,
+				57AF73001EB555DE00F1E0B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57AF73001EB555DE00F1E0B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57AF72FF1EB555DE00F1E0B7 /* Alarm Buttons.app */,
+				57AF73131EB555DF00F1E0B7 /* Alarm ButtonsTests.xctest */,
+				57AF731E1EB555DF00F1E0B7 /* Alarm ButtonsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57AF73011EB555DE00F1E0B7 /* Alarm Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				24FC0FD91ED32EA2009BFE55 /* Img */,
+				57AF73021EB555DE00F1E0B7 /* AppDelegate.swift */,
+				24FC0F541ED31EA5009BFE55 /* ViewPanicBottonAuto.swift */,
+				57AF73041EB555DE00F1E0B7 /* ViewController.swift */,
+				24FC0FDA1ED33275009BFE55 /* ViewMenuPrincipal.swift */,
+				24FC0FDC1ED33306009BFE55 /* ViewFireMenu.swift */,
+				24FC0FDE1ED3334E009BFE55 /* ViewPolicialMenu.swift */,
+				24FC0FE01ED3337C009BFE55 /* ViewOtherMenu.swift */,
+				24FC0FE21ED333AE009BFE55 /* ViewMedicalMenu.swift */,
+				24FC0FE41ED333E8009BFE55 /* ViewAccidentMenu.swift */,
+				24BA4C201ED33D5500C8F91B /* ViewBombMenu.swift */,
+				57AF73061EB555DE00F1E0B7 /* Main.storyboard */,
+				57AF73091EB555DE00F1E0B7 /* Assets.xcassets */,
+				57AF730B1EB555DE00F1E0B7 /* LaunchScreen.storyboard */,
+				57AF730E1EB555DE00F1E0B7 /* Info.plist */,
+				24BA4C241ED3451D00C8F91B /* ViewContPhoto.swift */,
+				24BA4C261ED3453200C8F91B /* ViewContrVideo.swift */,
+				24BA4C281ED3455B00C8F91B /* ViewContrPhone.swift */,
+				24BA4C2A1ED3457600C8F91B /* ViewContrMicrophone.swift */,
+				24BA4C2C1ED3458C00C8F91B /* ViewContrMessage.swift */,
+				24BA4C2E1ED345B800C8F91B /* ViewContrOthers.swift */,
+				24BA4C301ED346B300C8F91B /* ViewPanicPhoto.swift */,
+				24BA4C321ED346C500C8F91B /* ViewPanicVideo.swift */,
+				24BA4C341ED346D800C8F91B /* ViewPanicPhone.swift */,
+				24BA4C361ED346EF00C8F91B /* ViewPanicMicrophone.swift */,
+				244B312E1ED89176004EAA10 /* ViewLoginController.swift */,
+			);
+			path = "Alarm Buttons";
+			sourceTree = "<group>";
+		};
+		57AF73161EB555DF00F1E0B7 /* Alarm ButtonsTests */ = {
+			isa = PBXGroup;
+			children = (
+				57AF73171EB555DF00F1E0B7 /* Alarm_ButtonsTests.swift */,
+				57AF73191EB555DF00F1E0B7 /* Info.plist */,
+			);
+			path = "Alarm ButtonsTests";
+			sourceTree = "<group>";
+		};
+		57AF73211EB555DF00F1E0B7 /* Alarm ButtonsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				57AF73221EB555DF00F1E0B7 /* Alarm_ButtonsUITests.swift */,
+				57AF73241EB555DF00F1E0B7 /* Info.plist */,
+			);
+			path = "Alarm ButtonsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57AF72FE1EB555DE00F1E0B7 /* Alarm Buttons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57AF73271EB555DF00F1E0B7 /* Build configuration list for PBXNativeTarget "Alarm Buttons" */;
+			buildPhases = (
+				57AF72FB1EB555DE00F1E0B7 /* Sources */,
+				57AF72FC1EB555DE00F1E0B7 /* Frameworks */,
+				57AF72FD1EB555DE00F1E0B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Alarm Buttons";
+			productName = "Alarm Buttons";
+			productReference = 57AF72FF1EB555DE00F1E0B7 /* Alarm Buttons.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57AF73121EB555DF00F1E0B7 /* Alarm ButtonsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57AF732A1EB555DF00F1E0B7 /* Build configuration list for PBXNativeTarget "Alarm ButtonsTests" */;
+			buildPhases = (
+				57AF730F1EB555DF00F1E0B7 /* Sources */,
+				57AF73101EB555DF00F1E0B7 /* Frameworks */,
+				57AF73111EB555DF00F1E0B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57AF73151EB555DF00F1E0B7 /* PBXTargetDependency */,
+			);
+			name = "Alarm ButtonsTests";
+			productName = "Alarm ButtonsTests";
+			productReference = 57AF73131EB555DF00F1E0B7 /* Alarm ButtonsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		57AF731D1EB555DF00F1E0B7 /* Alarm ButtonsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57AF732D1EB555DF00F1E0B7 /* Build configuration list for PBXNativeTarget "Alarm ButtonsUITests" */;
+			buildPhases = (
+				57AF731A1EB555DF00F1E0B7 /* Sources */,
+				57AF731B1EB555DF00F1E0B7 /* Frameworks */,
+				57AF731C1EB555DF00F1E0B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57AF73201EB555DF00F1E0B7 /* PBXTargetDependency */,
+			);
+			name = "Alarm ButtonsUITests";
+			productName = "Alarm ButtonsUITests";
+			productReference = 57AF731E1EB555DF00F1E0B7 /* Alarm ButtonsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57AF72F71EB555DE00F1E0B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Jose David Bustos H";
+				TargetAttributes = {
+					57AF72FE1EB555DE00F1E0B7 = {
+						CreatedOnToolsVersion = 7.0.1;
+						LastSwiftMigration = 0830;
+					};
+					57AF73121EB555DF00F1E0B7 = {
+						CreatedOnToolsVersion = 7.0.1;
+						LastSwiftMigration = 0830;
+						TestTargetID = 57AF72FE1EB555DE00F1E0B7;
+					};
+					57AF731D1EB555DF00F1E0B7 = {
+						CreatedOnToolsVersion = 7.0.1;
+						LastSwiftMigration = 0830;
+						TestTargetID = 57AF72FE1EB555DE00F1E0B7;
+					};
+				};
+			};
+			buildConfigurationList = 57AF72FA1EB555DE00F1E0B7 /* Build configuration list for PBXProject "Alarm Buttons" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57AF72F61EB555DE00F1E0B7;
+			productRefGroup = 57AF73001EB555DE00F1E0B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57AF72FE1EB555DE00F1E0B7 /* Alarm Buttons */,
+				57AF73121EB555DF00F1E0B7 /* Alarm ButtonsTests */,
+				57AF731D1EB555DF00F1E0B7 /* Alarm ButtonsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57AF72FD1EB555DE00F1E0B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24BA4C0F1ED33A4C00C8F91B /* notificacionesCorreoWhite.png in Resources */,
+				24BA4C111ED33A5800C8F91B /* notificacionesCorreo2White.png in Resources */,
+				57215B261EB6463200FC79CC /* SaveWhite.png in Resources */,
+				57215B211EB6463200FC79CC /* photoWhite.png in Resources */,
+				57215B1C1EB6463200FC79CC /* fuegoWhite.png in Resources */,
+				24C4BF201ED878CD00A3E9DC /* notificacionesCalling2White.png in Resources */,
+				24BA4C131ED33A6400C8F91B /* notificacionesUserWhite.png in Resources */,
+				24BA4C1B1ED33BD900C8F91B /* CallingWhite.png in Resources */,
+				57215B241EB6463200FC79CC /* policialWhite3.png in Resources */,
+				24C4BF241ED884E000A3E9DC /* userCheckWhite.png in Resources */,
+				24BA4C1D1ED33BE200C8F91B /* Camera_shotWhite.png in Resources */,
+				24BA4C0D1ED339E200C8F91B /* mensajeWhite.png in Resources */,
+				57215B231EB6463200FC79CC /* policialWhite.png in Resources */,
+				24C4BF261ED88A2F00A3E9DC /* UserLoginWhite.png in Resources */,
+				57215B1F1EB6463200FC79CC /* llamadaWhite-4.png in Resources */,
+				57215B191EB6463200FC79CC /* fondonaranja.jpg in Resources */,
+				24BA4C171ED33A8100C8F91B /* SOSAlarms.png in Resources */,
+				24C4BF221ED884D300A3E9DC /* NextWhite.png in Resources */,
+				57215B141EB6463200FC79CC /* cameraWhite3.png in Resources */,
+				24BA4C071ED339AA00C8F91B /* AlarmaEditar.png in Resources */,
+				57AF730D1EB555DE00F1E0B7 /* LaunchScreen.storyboard in Resources */,
+				24BA4C031ED3398600C8F91B /* ladronWhite.png in Resources */,
+				57215B1A1EB6463200FC79CC /* fondonaranja2.jpg in Resources */,
+				24BA4C191ED33BC000C8F91B /* bombWhite.png in Resources */,
+				57215AFD1EB643F800FC79CC /* N__0008_Background_port.png in Resources */,
+				57215B161EB6463200FC79CC /* ComentarioWhite2.png in Resources */,
+				24BA4C1F1ED33C0100C8F91B /* recordingSpeechWhiteGood.png in Resources */,
+				57215B251EB6463200FC79CC /* policialWhite4.png in Resources */,
+				57215B221EB6463200FC79CC /* photoWhite4.png in Resources */,
+				24BA4C231ED3409300C8F91B /* VideoRecordingWhite.png in Resources */,
+				57215B131EB6463200FC79CC /* cameraWhite-3.png in Resources */,
+				57215B271EB6463200FC79CC /* TargetWhite-4.png in Resources */,
+				57215B1D1EB6463200FC79CC /* HospitalWhite.png in Resources */,
+				24C4BF281ED88AA600A3E9DC /* UserLoginWhite2.png in Resources */,
+				24BA4C0B1ED339C900C8F91B /* ProtestaWhite.png in Resources */,
+				57AF730A1EB555DE00F1E0B7 /* Assets.xcassets in Resources */,
+				57215B201EB6463200FC79CC /* llamadaWhite4.png in Resources */,
+				24BA4C091ED339BA00C8F91B /* ojoWhite.png in Resources */,
+				57215B171EB6463200FC79CC /* emergencia8.png in Resources */,
+				57215B181EB6463200FC79CC /* emergenciaWhite.png in Resources */,
+				24BA4C151ED33A6F00C8F91B /* notificacionesWhite.png in Resources */,
+				57215B1E1EB6463200FC79CC /* HospitalWhite2.png in Resources */,
+				57215B1B1EB6463200FC79CC /* fondonaranja4.jpg in Resources */,
+				24BA4C011ED3396400C8F91B /* configurarWhite2.png in Resources */,
+				24BA4BFF1ED3394C00C8F91B /* AlarmaspeakerWhite.png in Resources */,
+				57215B151EB6463200FC79CC /* ComentarioWhite.png in Resources */,
+				24BA4C051ED3399900C8F91B /* microphoneWhite.png in Resources */,
+				57AF73081EB555DE00F1E0B7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57AF73111EB555DF00F1E0B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57AF731C1EB555DF00F1E0B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57AF72FB1EB555DE00F1E0B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24BA4C351ED346D800C8F91B /* ViewPanicPhone.swift in Sources */,
+				24FC0FE51ED333E8009BFE55 /* ViewAccidentMenu.swift in Sources */,
+				24BA4C211ED33D5500C8F91B /* ViewBombMenu.swift in Sources */,
+				24FC0FDB1ED33275009BFE55 /* ViewMenuPrincipal.swift in Sources */,
+				24BA4C2D1ED3458C00C8F91B /* ViewContrMessage.swift in Sources */,
+				24BA4C2B1ED3457600C8F91B /* ViewContrMicrophone.swift in Sources */,
+				24FC0FE11ED3337C009BFE55 /* ViewOtherMenu.swift in Sources */,
+				24BA4C2F1ED345B800C8F91B /* ViewContrOthers.swift in Sources */,
+				24BA4C291ED3455B00C8F91B /* ViewContrPhone.swift in Sources */,
+				24BA4C331ED346C500C8F91B /* ViewPanicVideo.swift in Sources */,
+				57AF73051EB555DE00F1E0B7 /* ViewController.swift in Sources */,
+				24FC0F551ED31EA5009BFE55 /* ViewPanicBottonAuto.swift in Sources */,
+				24FC0FDD1ED33306009BFE55 /* ViewFireMenu.swift in Sources */,
+				244B312F1ED89176004EAA10 /* ViewLoginController.swift in Sources */,
+				24FC0FDF1ED3334F009BFE55 /* ViewPolicialMenu.swift in Sources */,
+				24BA4C311ED346B300C8F91B /* ViewPanicPhoto.swift in Sources */,
+				57AF73031EB555DE00F1E0B7 /* AppDelegate.swift in Sources */,
+				24BA4C251ED3451D00C8F91B /* ViewContPhoto.swift in Sources */,
+				24FC0FE31ED333AE009BFE55 /* ViewMedicalMenu.swift in Sources */,
+				24BA4C371ED346EF00C8F91B /* ViewPanicMicrophone.swift in Sources */,
+				24BA4C271ED3453200C8F91B /* ViewContrVideo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57AF730F1EB555DF00F1E0B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57AF73181EB555DF00F1E0B7 /* Alarm_ButtonsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57AF731A1EB555DF00F1E0B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57AF73231EB555DF00F1E0B7 /* Alarm_ButtonsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57AF73151EB555DF00F1E0B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57AF72FE1EB555DE00F1E0B7 /* Alarm Buttons */;
+			targetProxy = 57AF73141EB555DF00F1E0B7 /* PBXContainerItemProxy */;
+		};
+		57AF73201EB555DF00F1E0B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57AF72FE1EB555DE00F1E0B7 /* Alarm Buttons */;
+			targetProxy = 57AF731F1EB555DF00F1E0B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		57AF73061EB555DE00F1E0B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57AF73071EB555DE00F1E0B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57AF730B1EB555DE00F1E0B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57AF730C1EB555DE00F1E0B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57AF73251EB555DF00F1E0B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57AF73261EB555DF00F1E0B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57AF73281EB555DF00F1E0B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Alarm Buttons/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "KorbekSA.Alarm-Buttons";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		57AF73291EB555DF00F1E0B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Alarm Buttons/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "KorbekSA.Alarm-Buttons";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		57AF732B1EB555DF00F1E0B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Alarm ButtonsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "KorbekSA.Alarm-ButtonsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alarm Buttons.app/Alarm Buttons";
+			};
+			name = Debug;
+		};
+		57AF732C1EB555DF00F1E0B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Alarm ButtonsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "KorbekSA.Alarm-ButtonsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alarm Buttons.app/Alarm Buttons";
+			};
+			name = Release;
+		};
+		57AF732E1EB555DF00F1E0B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Alarm ButtonsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "KorbekSA.Alarm-ButtonsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Alarm Buttons";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		57AF732F1EB555DF00F1E0B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Alarm ButtonsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "KorbekSA.Alarm-ButtonsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Alarm Buttons";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57AF72FA1EB555DE00F1E0B7 /* Build configuration list for PBXProject "Alarm Buttons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57AF73251EB555DF00F1E0B7 /* Debug */,
+				57AF73261EB555DF00F1E0B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57AF73271EB555DF00F1E0B7 /* Build configuration list for PBXNativeTarget "Alarm Buttons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57AF73281EB555DF00F1E0B7 /* Debug */,
+				57AF73291EB555DF00F1E0B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57AF732A1EB555DF00F1E0B7 /* Build configuration list for PBXNativeTarget "Alarm ButtonsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57AF732B1EB555DF00F1E0B7 /* Debug */,
+				57AF732C1EB555DF00F1E0B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57AF732D1EB555DF00F1E0B7 /* Build configuration list for PBXNativeTarget "Alarm ButtonsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57AF732E1EB555DF00F1E0B7 /* Debug */,
+				57AF732F1EB555DF00F1E0B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57AF72F71EB555DE00F1E0B7 /* Project object */;
+}
